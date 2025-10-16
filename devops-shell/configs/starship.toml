@@ -1,0 +1,12 @@
+# Example Starship config
+add_newline = false
+
+[directory]
+truncation_length = 3
+
+[git_status]
+style = "bold red"
+
+[character]
+success_symbol = "[✔]"
+error_symbol = "[✘]"
