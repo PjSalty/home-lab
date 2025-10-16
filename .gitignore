@@ -1,0 +1,47 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+terraform.tfvars
+*.tfvars
+
+# Kubernetes Secrets
+secrets.yaml
+*-secret.yaml
+*.key
+*.crt
+*.pem
+kubeconfig
+kubeconfig.*
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Operating System
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+logs/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Archives
+*.zip
+*.tar.gz
+*.tgz
